@@ -43,6 +43,7 @@ console.log(meanings)
 
   useEffect(() => {
     dictionaryAPI()
+    // eslint-disable-next-line
   }, [word, category])
 
 
