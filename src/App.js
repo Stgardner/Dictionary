@@ -5,6 +5,7 @@ import { Container, withStyles, Switch } from '@material-ui/core';
 import Header from './components/header/Header';
 import Definitionss from './components/definitions/Definitions';
 import { grey } from '@material-ui/core/colors';
+import React from 'react';
 
 function App() {
 const [word, setWord] = useState("")
