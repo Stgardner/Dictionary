@@ -1,0 +1,30 @@
+.subTitle {
+    font-size: 5vw;
+    font-family: 'EB Garamond', serif;
+}
+.meanings{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height: 55vh;
+    border: 10px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    overflow-x: hidden;
+}
+
+@media (max-width: 900px){
+    .meanings{
+        height: 60vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
+.singleMean {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
